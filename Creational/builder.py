@@ -11,7 +11,7 @@ class VehicleBuilder(ABC):
     @abstractmethod
     def wheel_no(self, number):
         pass 
-
+ 
     @abstractmethod
     def build_design(self, design):
         pass 
